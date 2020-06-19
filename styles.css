@@ -1,0 +1,95 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #fff;
+}
+
+#navbar {
+  position: relative;
+}
+
+#navbar a {
+  color: #000;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#navbar a:hover {
+  text-decoration: underline;
+}
+
+.navlink-l {
+  padding-top: 15px;
+  display: inline-block;
+}
+
+.navlink-r {
+  padding-top: 15px;
+  position: absolute;
+  right: 0px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#sign-in {
+  background-color: #4583ec;
+  padding: 10px;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+}
+
+#country {
+  position: absolute;
+  bottom: 40px;
+  right: 0;
+  left: 0;
+  height: 40px;
+  line-height: 16px;
+  background-color: #f2f2f2;
+  color: #6f6f6f;
+  border: 1px solid #e4e4e4;
+  margin: 0px;
+}
+
+#country p {
+  font-size: 16px;
+}
+
+#footer {
+  margin: 0px;
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  left: 0;
+  height: 40px;
+  background-color: #f2f2f2;
+}
+
+#footer a {
+  color: #6f6f6f;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+.footerlink-l {
+  padding-top: 10px;
+  display: inline-block;
+}
+
+.footerlink-r {
+  padding-top: 10px;
+  position: absolute;
+  right: 0px;
+  display: inline-block;
+}
