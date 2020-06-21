@@ -43,9 +43,24 @@ body {
 #sign-in {
   background-color: #4583ec;
   padding: 10px 15px;
+  margin-left: 10px;
   border: none;
   color: #fff;
   border-radius: 3px;
+}
+
+#main-page {
+  position: relative;
+  top: 25%;
+  text-align: center;
+  width: 500px;
+  margin: auto;
+}
+
+#search {
+}
+
+#search-buttons {
 }
 
 #country {
